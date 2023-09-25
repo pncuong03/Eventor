@@ -21,12 +21,12 @@
   
   /* hero sec start sec end */
   $('.hero-slider-wrap').slick({
-    dots: false,
+    dots: true,
     speed: 1000,
-    arrows: false,
+    arrows: true,
     infinite: true,
     autoplay: true,
-    slidesToShow: 1,
+    slidesToShow:1,
     pauseOnHover: true,
     autoplaySpeed: 6000,
    
@@ -80,24 +80,7 @@
       + '<li class="seconds"><strong class="sec2">%S</strong><span class="d-block">Seconds</span></li>'));
     });
   });
-  /* counter */
  
-      
-  $(document).on( 'click', '.mode', function(e){
-    e.preventDefault;
-    if($('body').hasClass('dark-version')) {
-        $('body').removeClass('dark-version');
-        $('.mode .fa-moon').show();
-        $('.mode .fa-sun').hide();
-    } else {
-        $('body').addClass('dark-version');
-        $('.mode .fa-moon').hide();
-        $('.mode .fa-sun').show();
-    }
-  }); 
-
-
-
   AOS.init({
 
   });
@@ -121,7 +104,6 @@
         }
     });
   });
-
     
 })(jQuery);
 
