@@ -3,6 +3,52 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+/* CSS cho bảng */
+.swiper-slide {
+  background-color: #ffffff; /* Màu nền trắng */
+  padding: 20px; /* Điều chỉnh khoảng cách giữa nội dung và viền bảng */
+  border-radius: 30px; /* Bo tròn góc của bảng */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng cho bảng */
+  text-align: left; /* Căn chữ sang trái */
+}
+
+/* CSS cho nội dung bên trong bảng */
+.card-desc {
+  margin-bottom: 30px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.thumb img {
+  width: 60px; /* Điều chỉnh kích thước hình ảnh */
+  height: 60px;
+  border-radius: 50%; /* Bo tròn ảnh */
+  margin-right: 10px; /* Điều chỉnh khoảng cách giữa ảnh và nội dung */
+}
+
+/* CSS cho tên và đánh giá */
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.rating-star li {
+  margin-right: 5px; /* Điều chỉnh khoảng cách giữa các ngôi sao */
+  font-size: 20px;
+  color: #ffcc00; /* Màu sắc cho ngôi sao đánh giá */
+}
+.swiper-pagination {
+  top: 100px;
+}
 .body-wrap {
   overflow: hidden;
   position: relative;
@@ -414,6 +460,7 @@ hr {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          left: 200px
 }
 .hero-sec .item-content .item-title1 {
   font-size: 62px;

@@ -20,17 +20,16 @@
   /* bg parallax - end */
   
   /* hero sec start sec end */
-  $('.hero-slider-wrap').slick({
-    dots: true,
-    speed: 1000,
-    arrows: true,
-    infinite: true,
-    autoplay: true,
-    slidesToShow:1,
-    pauseOnHover: true,
-    autoplaySpeed: 6000,
-   
-  });
+  // $('.hero-slider-wrap').slick({
+  //   dots: true,
+  //   speed: 1000,
+  //   arrows: true,
+  //   infinite: true,
+  //   autoplay: true,
+  //   slidesToShow:1,
+  //   pauseOnHover: true,
+  //   autoplaySpeed: 6000,
+  // });
   
   /* hero sec start sec end */
   
@@ -81,9 +80,6 @@
     });
   });
  
-  AOS.init({
-
-  });
 
   $(document) .ready(function(){
     $('.zoom-gallery').magnificPopup({
