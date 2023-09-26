@@ -10,6 +10,7 @@ body {
 
 /* CSS cho bảng */
 .swiper-slide {
+  font-family: "Outfit";
   background-color: #ffffff; /* Màu nền trắng */
   padding: 20px; /* Điều chỉnh khoảng cách giữa nội dung và viền bảng */
   border-radius: 30px; /* Bo tròn góc của bảng */
@@ -460,8 +461,8 @@ hr {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-          left: 200px
 }
+
 .hero-sec .item-content .item-title1 {
   font-size: 62px;
   color: #212121;
@@ -2352,7 +2353,6 @@ hr {
     font-size: 140px;
     margin: -240px 0 0 0px;
   }
-
   .hero-sec .item-content2 .highlight-text2 {
     font-size: 180px;
   }
